@@ -1,0 +1,80 @@
+/* Modern, simple styling for About section */
+.about {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  color: #22223b;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.about-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #4a4e69;
+  letter-spacing: 1px;
+}
+
+.about-text {
+  color: #22223b;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.about-text h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #4a4e69;
+  margin-bottom: 0.75rem;
+  letter-spacing: 0.5px;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  color: #22223b;
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.about-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.about-image img {
+  max-width: 180px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  object-fit: cover;
+  border: 3px solid #f2e9e4;
+}
+
+.about-content {
+  font-size: 1.1rem;
+  color: #22223b;
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column-reverse;
+  }
+
+  .about-text {
+    padding-right: 0;
+    padding-top: 2rem;
+  }
+
+  .about-image {
+    flex: 0 0 200px;
+  }
+}
