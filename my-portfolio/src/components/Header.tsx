@@ -1,9 +1,10 @@
 import React from 'react';
 import "./Header.css"
+import "./General.css"
 
 const Header: React.FC = () => {
     return (
-        <header className="header">
+        <header className="component">
             <div className="header-content">
                 <h1 className="name">Joe Smith</h1>
                 <nav className="header-nav">

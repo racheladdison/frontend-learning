@@ -1,5 +1,6 @@
 import React from "react";
 import "./Projects.css";
+import "./General.css";
 // import project1 from "../assets/project1.png";
 // import project2 from "../assets/project2.png";
 // import project3 from "../assets/project3.png";
@@ -34,7 +35,7 @@ const projects = [
 ];
 
   return (
-    <section id="projects" className="projects">
+    <section id="projects" className="component">
       <div className="projects-content">
         <h2>My Projects</h2>
         <div className="projects-grid">

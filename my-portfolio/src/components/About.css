@@ -1,14 +1,12 @@
 /* Modern, simple styling for About section */
-.about {
-  width: 100%;
+
+.about-content {
   box-sizing: border-box;
   margin: 0 auto 2rem auto;
   padding: 2rem;
-  background: #fff;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  color: #22223b;
   font-size: 1.1rem;
   line-height: 1.7;
+  color: #22223b;
 }
 
 .about-title {
@@ -56,11 +54,6 @@
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   object-fit: cover;
   border: 3px solid #f2e9e4;
-}
-
-.about-content {
-  font-size: 1.1rem;
-  color: #22223b;
 }
 
 @media (max-width: 768px) {

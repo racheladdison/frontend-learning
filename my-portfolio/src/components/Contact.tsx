@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import "./Contact.css"
+import "./General.css"
 
 const Contact: React.FC = () => {
   const [name, setName] = useState("")
@@ -17,7 +18,7 @@ const Contact: React.FC = () => {
   }
 
   return (
-    <section id="contact" className="contact">
+    <section id="contact" className="component">
       <div className="contact-content">
         <h2>Contact Me</h2>
         <form onSubmit={handleSubmit}>

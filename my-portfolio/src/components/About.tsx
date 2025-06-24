@@ -1,10 +1,11 @@
 import React from "react";
 import "./About.css";
+import "./General.css";
 import reactPic from "../assets/react.svg";
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="about">
+    <section id="about" className="component">
       <div className="about-content">
         <div className="about-text">
             <h2>About Me</h2>

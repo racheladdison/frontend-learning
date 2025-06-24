@@ -1,23 +1,17 @@
 /* Basic modern, simple header styling */
-.header {
-  width: 100%;
-  box-sizing: border-box;
-  justify-content: space-between;
-  padding: 1.5rem 2rem;
-  background: #fff;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  margin-bottom: 2rem;
-}
 
 .header-content {
   margin: 0 auto;
   width: 100%;
+  box-sizing: border-box;
   justify-content: space-between;
   display: flex;
   font-size: 1.8rem;
   font-weight: 700;
   color: #22223b;
   letter-spacing: 1px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
 }
 
 .name {

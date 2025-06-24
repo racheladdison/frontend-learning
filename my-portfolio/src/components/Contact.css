@@ -1,17 +1,9 @@
 /* Modern, simple styling for Contact section */
-.contact {
-  width: 100%;
+.contact-content {
   box-sizing: border-box;
-  background: #fff;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  max-width: 600px;
   margin: 0 auto 2rem auto;
   padding: 2rem;
-}
-
-.contact-content {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 0 2rem;
 }
 
 .contact-content h2 {
