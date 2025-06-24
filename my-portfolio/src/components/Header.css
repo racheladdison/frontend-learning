@@ -1,19 +1,17 @@
 /* Basic modern, simple header styling */
 .header {
   width: 100%;
-  max-width: 1200px;
+  box-sizing: border-box;
   justify-content: space-between;
   padding: 1.5rem 2rem;
   background: #fff;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  border-radius: 12px;
   margin-bottom: 2rem;
 }
 
 .header-content {
   margin: 0 auto;
   width: 100%;
-  max-width: 1200px;
   justify-content: space-between;
   display: flex;
   font-size: 1.8rem;

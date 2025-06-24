@@ -1,11 +1,10 @@
 /* Modern, simple styling for About section */
 .about {
   width: 100%;
-  max-width: 1200px;
+  box-sizing: border-box;
   margin: 0 auto 2rem auto;
   padding: 2rem;
   background: #fff;
-  border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   color: #22223b;
   font-size: 1.1rem;

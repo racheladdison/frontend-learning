@@ -1,15 +1,14 @@
 /* Modern, simple styling for Projects section */
 .projects {
   width: 100%;
+  box-sizing: border-box;
   background: #fff;
-  border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   margin: 0 auto 2rem auto;
-  padding: 2rem 0;
+  padding: 2rem;
 }
 
 .projects-content {
-  max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
 }
