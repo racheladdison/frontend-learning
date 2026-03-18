@@ -6,19 +6,20 @@
   padding: 2rem;
   font-size: 1.1rem;
   line-height: 1.7;
-  color: #22223b;
+  color: #fefae0;
+  background-color: #283618;
 }
 
 .about-title {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  color: #4a4e69;
+  color: #fefae0;
   letter-spacing: 1px;
 }
 
 .about-text {
-  color: #22223b;
+  color: #fefae0;
   font-size: 1.1rem;
   line-height: 1.7;
   margin-bottom: 1rem;
@@ -27,14 +28,14 @@
 .about-text h2 {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #4a4e69;
+  color: #dda15e;
   margin-bottom: 0.75rem;
   letter-spacing: 0.5px;
 }
 
 .about-text p {
   font-size: 1.1rem;
-  color: #22223b;
+  color: #fefae0;
   margin-bottom: 1rem;
   line-height: 1.7;
 }
@@ -53,7 +54,7 @@
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   object-fit: cover;
-  border: 3px solid #f2e9e4;
+  border: 3px solid #283618;
 }
 
 @media (max-width: 768px) {

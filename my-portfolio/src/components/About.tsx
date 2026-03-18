@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import "./General.css";
-import reactPic from "../assets/react.svg";
+import profPic from "../assets/profPic.jpg";
 
 const About: React.FC = () => {
   return (
@@ -16,7 +16,7 @@ const About: React.FC = () => {
             </p>
         </div>
         <div className="about-image">
-            <img src={reactPic} alt="React" className="react-pic" />
+            <img src={profPic} alt="Profile" className="prof-pic" />
         </div>
       </div>
     </section>
